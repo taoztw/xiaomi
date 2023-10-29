@@ -1,0 +1,46 @@
+.neargroup {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.neargroup h4 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.box-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-list .box-item {
+    width: 49%;
+    text-align: center;
+}
+
+.box-item img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+.box-item .item-title {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.box-item .price .newprice {
+    color: #f63;
+    font-size: 18px;
+}
+
+.box-item .price .oldprice {
+    color: #666;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+

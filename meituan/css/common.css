@@ -1,0 +1,22 @@
+
+/* 通用css */
+* {
+    margin: 0;
+    padding: 0;
+    /* 消除ul 左边的小点 */
+    list-style: none; 
+    box-sizing: border-box;    
+}
+
+body {
+    background: #f9f7f8;
+    padding-top: 43px;
+    padding-bottom: 64px;
+}
+
+a {
+    /* 去除a元素的下划线 */
+    text-decoration: none;
+    /* 继承父元素的颜色 */
+    color: inherit;
+}

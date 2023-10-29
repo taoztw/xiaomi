@@ -1,0 +1,33 @@
+.navlist {
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.navlist ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navlist .nav-item {
+    /*  */
+    flex: 0 0 20%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(204, 132, 38);
+    line-height: 40px;
+    margin: 0 auto 7px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.nav-des {
+    font-size: 14px;
+    color: #333;
+}

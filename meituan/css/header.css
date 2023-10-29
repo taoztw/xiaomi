@@ -1,0 +1,60 @@
+
+
+/* 顶部导航栏 */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    background: white;
+    height: 40px;
+    align-items: center;  
+    color: #000;
+    z-index: 999;
+}
+
+.header-left {
+    /* 不随着页面大小而变化  默认值*/
+    flex-grow: 0;  
+}
+
+/* 城市效果 */
+.header-left-city {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* 下箭头 */
+.downnarrow {
+    display: inline-block;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 6px;
+    width: 6px;
+    transform: rotate(-45deg);
+    margin-left: 6px;
+    margin-bottom: 4px;
+
+}
+
+
+/* header 右侧div效果 */
+.header-right {
+    flex: 1;
+    background: #f3f3f3;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0px 15px; 
+    padding: 0 20px;
+}
+
+.header-right input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    /* 设置透明 */
+    background: transparent;
+    font-size: 14px;
+}

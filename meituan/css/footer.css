@@ -1,0 +1,30 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+}
+
+footer .nav-menu {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+footer .nav-menu .nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.nav-item a {
+    display: block;
+    color: #333;
+}
+
+.nav-item .iconfont {
+    font-size: 24px;
+}
+
+a.active{
+    color: #f63;
+}

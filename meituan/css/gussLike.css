@@ -1,0 +1,81 @@
+.gussLike {
+    background: #fff;
+    padding: 0 10px;   
+}
+
+.gussLike .gusslike-title {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd8c3;
+    color: #666;
+}
+
+.gussLike .item-href {
+    display: block;
+    padding: 10px 0;
+
+}
+
+.gussLike .item-box{
+    display: flex;
+}
+
+/* 左边宽度固定不变。右边会跟着变换 */
+.gussLike .item-img {
+    width: 90px;
+    height: 90px;
+}
+
+.gussLike .item-desc {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-desc .desc-name {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.item-desc .desc-desc {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.item-desc .desc-price {
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+
+.item-desc .desc-price .now-price {
+    font-size: 22px;
+    color: red;
+}
+
+.item-desc .desc-price .now-price:before {
+    content: '\A5';
+    font-size: 14px;
+    margin-right: 3px;
+    color: red;
+}
+
+.desc-price .selNum {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+
+.gusslike-li {
+    border-bottom: 1px solid #ddd8ce;
+}
+
+.gusslike-list :last-child{
+    border: none;
+}
